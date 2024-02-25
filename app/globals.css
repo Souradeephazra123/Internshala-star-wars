@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body{
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+body {
+  background: url("/sky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+.planet-member {
+  background: rgb(26, 188, 156);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(26, 188, 156, 1) 0%,
+    rgba(142, 68, 173, 1) 100%
+  );
+}
+.planet-resident-member {
+  background: rgb(26, 188, 156);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(188, 150, 26) 0%,
+    rgb(132, 224, 113) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgb(188, 150, 26) 0%,
+    rgb(132, 224, 113) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgb(188, 150, 26) 0%,
+    rgb(132, 224, 113) 100%
+  );
+}
