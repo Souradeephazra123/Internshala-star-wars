@@ -173,7 +173,7 @@ ${!prevPage ? "bg-slate-500" : "bg-blue-500"}
                 handleNextClick();
               }}
               disabled={!nextPage}
-              className={`bg-slate-500 text-white px-5 py-2 rounded-md
+              className={` text-white px-5 py-2 rounded-md
               ${!nextPage ? "bg-slate-500" : "bg-blue-500"}
                `}
             >
